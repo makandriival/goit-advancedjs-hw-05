@@ -1,0 +1,21 @@
+{
+  "name": "goit-advancedjs-hw-05",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GoIT homework 5: TypeScript compiler setup and browser debugging with source maps.",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "watch": "tsc --watch",
+    "prestart": "npm run build",
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^1.0.0",
+    "typescript": "~5.9.3"
+  }
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript concatenation</title>
+  </head>
+  <body>
+    <main>
+      <h1>TypeScript concatenation</h1>
+      <form id="concatenation-form">
+        <p>
+          <label for="first-string">First string</label>
+          <input id="first-string" name="first-string" type="text" />
+        </p>
+        <p>
+          <label for="second-string">Second string</label>
+          <input id="second-string" name="second-string" type="text" />
+        </p>
+        <button type="submit">Concat!</button>
+      </form>
+      <p>Result: <output id="result" for="first-string second-string" aria-live="polite"></output></p>
+    </main>
+    <script type="module" src="./dist/index.js"></script>
+  </body>
+</html>
